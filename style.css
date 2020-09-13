@@ -1,0 +1,111 @@
+body{
+  background-color: #4C4B4B;
+}
+h1{
+  color: #20DBEE;
+}
+.font{
+  font-style: italic;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+main{
+  padding-left: 20px;
+}
+ul{
+  color: #FFFFFF;
+}
+p {
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 27px;
+  margin: 0;
+  padding-bottom: 26px;
+}
+
+.callout {
+  color: #E0FFFF;
+}
+
+.about-me .column:nth-of-type(2) {
+  margin-left: 110px;
+}
+
+
+.keyline {
+  position: relative;
+}
+
+.keyline1::before {
+  content: '';
+  display: block;
+  width: 1150px;
+  height: 4px;
+  background-color:#F6F030;
+  position: relative;
+  top: -27px;
+}
+.keyline2::before {
+  content: '';
+  display: block;
+  width: 2000px;
+  height: 4px;
+  background-color:#F6F030;
+  position: relative;
+  top: -27px;
+}
+
+.about-me {
+  display: flex;
+  background:url(./images/about-background.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 142px;
+  padding-bottom: 142px;
+}
+
+.about-me h2 {
+  padding-bottom: 25px;
+  margin-bottom: 0px;
+}
+
+.wrapper {
+   padding-left: 190px;
+   padding-right: 190px;
+}
+
+.back-arrow {
+  position: absolute;
+  bottom: 0;
+  width: 54px;
+  left: calc(50% - 27px);
+  bottom: 24px;
+}
+
+.get-in-touch {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.highlight {
+  font-weight: 800;
+}
+
+.social-icon {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  .about-me {
+    flex-wrap: wrap;
+  }
+  .about-me .column {
+    width: 100%;
+  }
+  .about-me .column:nth-of-type(2) {
+    margin-left: 0px;
+  }
+}
